@@ -1,0 +1,54 @@
+html,body{
+width:100%;
+margin:0px;
+font-family: 'Roboto', sans-serif;
+  }
+
+.header {
+min-height: 200px;
+
+}
+
+.baner {
+background: red;
+min-height: 200px;
+padding: 30px;
+
+}
+
+.category{
+  min-height: 50px;
+  margin:10px;
+  background-color: #013467;
+  text-align:center;
+  padding-top: 10%;
+
+}
+
+.logo {
+  background: white;
+  min-height: 80px;
+  margin: 5px;
+
+}
+
+.menu {
+  min-height: 30px;
+  display: inline-flex;
+    list-style: none;
+    float: right;
+    margin:20px;
+    color:black;
+    text-transform: uppercase;
+
+}
+
+.menu ul{
+  padding-left: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.menu ul:hover{
+  opacity: 0.5;
+
+}
